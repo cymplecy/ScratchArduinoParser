@@ -1,0 +1,7 @@
+when @ clicked
+forever
+    broadcast [Pin13On v]
+    wait (1) secs
+    broadcast [Pin13Off v]
+    wait (1) secs
+end
