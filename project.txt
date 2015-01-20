@@ -1,7 +1,38 @@
+Stage
+=====
+
+Backdrops
+---------
+
+- backdrop1
+
+Sounds
+------
+
+- pop
+
+
+Sprite1
+=======
+
+Costumes
+--------
+
+- costume1
+- costume2
+
+Sounds
+------
+
+- meow
+
+Scripts
+-------
+
 when @ clicked
 forever
     broadcast [Pin13On v]
     wait (1) secs
-    broadcast [Pin13Off v]
+    broadcast [Pin13off v]
     wait (1) secs
 end
