@@ -39,6 +39,8 @@ for line in codeInput:
         codeOutput.append("void loop() {")
         indent += "    "
     if  "broadcast" in line:
+        #print line
+        line = line.translate(None,"[]() ").replace("join","").replace("broadcast","")
         if "pin" in line:
             if "on" in line:
                 state = "HIGH"

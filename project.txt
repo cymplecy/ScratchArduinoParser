@@ -31,7 +31,7 @@ Scripts
 
 when @ clicked
 forever
-    broadcast [Pin13On v]
+    broadcast (join [Pin] (join [13] [On]))
     wait (1) secs
     broadcast [Pin13off v]
     wait (1) secs
